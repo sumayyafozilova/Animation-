@@ -1,0 +1,53 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: yur;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.katta {
+    display: flex;
+    gap: 10px;
+}
+
+.car {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    animation-name: aylana;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+
+}
+
+@keyframes aylana {
+    from {
+        transform: rotate(0deg);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes yur {
+    from {
+        background-color: black;
+        border-radius: 0px;
+        margin-left: 0px;
+    }
+
+    to {
+        background-color: rgb(122, 122, 97);
+        border-radius: 200px;
+        margin-left: 1000px;
+    }
+}
